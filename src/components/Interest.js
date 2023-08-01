@@ -5,7 +5,7 @@ const Interest = () => {
         <div className="aboutContent">
             <div className="abtContent" >
                 <h3>Interest</h3>
-                <p>
+                <p className="abttxt">
                     Food expert. Music scholar. Reader. 
                     Internet fanatic. Bacon buff. Entrepreneur. 
                     Travel geek. Pop culture ninja. Coffee 

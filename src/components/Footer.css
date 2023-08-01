@@ -1,0 +1,7 @@
+.footerContent {
+    background-color: #161619;
+    padding-block: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}

@@ -6,7 +6,7 @@ const About = () => {
         <div className="aboutContent">
             <div className="abtContent" >
                 <h3>About</h3>
-                <p>
+                <p className="abttxt">
                     I am a frontend developer with a particular 
                     interest in making things simple and automating 
                     daily tasks. I try to keep up with security 
