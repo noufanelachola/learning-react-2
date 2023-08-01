@@ -1,9 +1,86 @@
 .infoPhoto img {
     height: 100%;
-    
+    }
+
+.infoContent {
+    background: #1A1B21;
+    /* width: 20rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
 }
 
 .infoPhoto {
     height: 20rem;
+}
 
+.mainContent {
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.mainContent > p {
+    font-family: "inter" , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.info--Name {
+    color: white;
+    font-size: 1.56rem;
+    font-weight: 700;
+    margin-top: 2rem !important;
+}
+
+.info--Title {
+    color: #f5bdbdd2;
+    font-size: 0.8rem;
+}
+
+.info--Web a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.64rem;
+} 
+
+.infoBtn {
+    width: 100%;
+    margin-block: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-block: 0.75rem;
+    border-radius: 0.5rem;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn p {
+    margin: 0;
+    font-family: "inter",sans-serif;
+    font-weight: 500;
+}
+
+.btnEmail {
+    background-color: white;
+}
+
+.btnLinkedIn {
+    background-color: #5093E2;
+}
+.btnLinkedIn p {
+    color: white;
 }
