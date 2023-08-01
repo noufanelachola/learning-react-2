@@ -18,14 +18,18 @@ const Info = () => {
                 </p>
 
                 <div className="infoBtn">
-                    <button className="btn btnEmail" >
-                        <img src={Mail} />
-                        <p>Email</p>
-                    </button>
-                    <button className="btn btnLinkedIn" onclick="window.location.href='https://www.linkedin.com/in/noufan-elachola-32228a1b0/';"> 
-                        <img src={LinkedIn} />
-                        <p>LinkedIn</p> 
-                    </button>
+                    <a href="mailto:noufansadiqelachola@gmail.com">
+                        <button className="btn btnEmail" >
+                            <img src={Mail} />
+                            <p>Email</p>
+                        </button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/noufan-elachola-32228a1b0/">
+                        <button className="btn btnLinkedIn" onclick="window.location.href='https://www.linkedin.com/in/noufan-elachola-32228a1b0/';"> 
+                            <img src={LinkedIn} />
+                            <p>LinkedIn</p> 
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
