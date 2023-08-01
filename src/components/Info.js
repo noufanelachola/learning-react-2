@@ -1,9 +1,13 @@
+import React from "react";
 import Photo from "../assets/photo.jpg";
+import "./Info.css";
 
 const Info = () => {
     return(
-        <div>
-            <img className="info--photo" src={Photo}/>
+        <div className="infoContent">
+            <div className="infoPhoto">
+                <img src={Photo} />
+            </div>
         </div>
     );
 }
